@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- EMAIL -->
+
+        <EditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"/>
+
+        <!-- PASSWORD -->
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- ROLE SPINNER -->
+
+        <Spinner
+            android:id="@+id/roleSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <!-- PHARMACIST NAME -->
+
+        <EditText
+            android:id="@+id/userNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pharmacist Name"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- SHOP NAME -->
+
+        <EditText
+            android:id="@+id/shopNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medical Shop Name"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- VILLAGE -->
+
+        <EditText
+            android:id="@+id/villageEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Village Name"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- SIGNUP BUTTON -->
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"/>
+
+        <!-- LOGIN PAGE BUTTON -->
+
+        <Button
+            android:id="@+id/loginPageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have account? Login"
+            android:textAllCaps="false"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

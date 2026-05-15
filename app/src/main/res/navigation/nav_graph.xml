@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <!-- Login Activity -->
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name=
+            "com.example.gramasanjeevini.activities.LoginActivity"
+        android:label="Login" />
+
+    <!-- Signup Activity -->
+
+    <activity
+        android:id="@+id/signupActivity"
+        android:name=
+            "com.example.gramasanjeevini.activities.SignupActivity"
+        android:label="Signup" />
+
+    <!-- User Dashboard -->
+
+    <activity
+        android:id="@+id/userDashboardActivity"
+        android:name=
+            "com.example.gramasanjeevini.activities.UserDashboardActivity"
+        android:label="User Dashboard" />
+
+    <!-- Pharmacist Dashboard -->
+
+    <activity
+        android:id="@+id/pharmacistDashboardActivity"
+        android:name=
+            "com.example.gramasanjeevini.activities.PharmacistDashboardActivity"
+        android:label="Pharmacist Dashboard" />
+
+    <!-- Search Medicine -->
+
+    <activity
+        android:id="@+id/searchMedicineActivity"
+        android:name=
+            "com.example.gramasanjeevini.activities.SearchMedicineActivity"
+        android:label="Search Medicine" />
+
+    <!-- Result Activity -->
+
+    <activity
+        android:id="@+id/resultActivity"
+        android:name=
+            "com.example.gramasanjeevini.activities.ResultActivity"
+        android:label="Medicine Results" />
+
+    <!-- Medicine Details -->
+
+    <activity
+        android:id="@+id/medicineDetailsActivity"
+        android:name=
+            "com.example.gramasanjeevini.activities.MedicineDetailsActivity"
+        android:label="Medicine Details" />
+
+</navigation>
