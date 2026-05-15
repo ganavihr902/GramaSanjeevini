@@ -16,6 +16,7 @@ IDE: Android Studio
 Database: Firebase / SQLite (based on your project)
 Architecture: Activity-based structure
 📂 Project Structure
+
 app/
  ├── manifests/
  ├── java/com.example.gramasanjeevini/
@@ -32,7 +33,7 @@ app/
       ├── values/
 ⚙️ Installation & Setup
 1. Clone the repository
-
+https://github.com/ganavihr902/GramaSanjeevini.git
 2. Open in Android Studio
 Open Android Studio
 Click Open Project
