@@ -32,7 +32,7 @@ app/
       ├── values/
 ⚙️ Installation & Setup
 1. Clone the repository
-git clone https://github.com/your-username/GramaSanjeevini.git
+
 2. Open in Android Studio
 Open Android Studio
 Click Open Project
